@@ -1,10 +1,10 @@
 import './App.css'
 import { useRef, useState } from 'react'
-import Editor from './components/editor.jsx';
 import Settings from './components/Settings.jsx';
 import { EditorProvider } from './context/editorContext.js';
 import html2canvas from 'html2canvas';
 import Footer from './components/Footer.jsx';
+import Editor from './components/Editor.jsx';
 
 function App() {
   const [editorTheme, setEditorTheme] = useState('monokai')
