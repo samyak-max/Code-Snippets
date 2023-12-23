@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#body{
+  background-color: #0d0d0d;
+}
+
+#root {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.editor-container{
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 500px !important;
+}
+
+.ace_editor{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.setting-container{
+  --tw-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+
+.dropdown-title {
+  padding: 0.25rem 0.3rem 0.3rem 0.5rem;
+  height: 37px;
+  border-radius: 3px;
+  border: 1px solid rgba(249, 249, 249, 0.08);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  padding: 0.25rem 0 0.4rem 0.5rem;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  background-color: #191919;
+  border: 1px solid #3c3c3c;
+  border-radius: 3px;
+}
