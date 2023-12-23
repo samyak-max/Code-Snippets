@@ -39,7 +39,7 @@ function Editor() {
                 minHeight={540} 
                 minWidth={510} 
                 maxWidth={1000} 
-                className='p-5 rounded-lg' 
+                className='p-5' 
                 style={{background: colorGradients[backgroundColor]}}
             >
             <AceEditor
